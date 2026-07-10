@@ -99,3 +99,79 @@ ul li a {
     padding: 5px;
     border-radius: 5px;
 }
+/* what i do section */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.what-i-do-card-container .what-i-do-card {
+    border: 5px solid orange;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+.what-i-do-card-container .what-i-do-card h3{
+    margin: 10px 0;
+}
+.what-i-do-card-container .what-i-do-card p {
+    color: #757575;
+    font-size: 15px;
+}
+/* Resume section */
+.resume{
+    margin-top: 100px;
+}
+.resume h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 80px;
+    color: #181818;
+}
+.resume-container{
+    display: flex;
+    gap: 40px;
+}
+.resume-colum{
+    flex: 1;
+    text-align: left;
+}
+.resume-colum h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-item{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.resume-item h4{
+    font-size: 25px;
+    color: #333;
+}
+.resume-item h5{
+    font-size: 18px;
+    color: #757575;
+    margin: 10px 0;
+}
+.resume-item p{
+    color: #757575;
+    line-height: 28px;
+}
+.download-cv{
+    text-align: center;
+}
+.download-cv button{
+    padding: 15px 30px;
+    background: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
